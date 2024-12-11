@@ -1,4 +1,5 @@
 from .dose_response import DoseResponse
+import numpy as np
 
 class LogisticP4Model(DoseResponse):
     def model_function(self, x, b, c, d, e):
